@@ -1,0 +1,271 @@
+@font-face 
+    {
+        font-family: 'Roboto';
+        src: url('../asset/fonts/Roboto-Regular.ttf');
+    }
+
+
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+body 
+    {
+        font-family:'Roboto';
+        background-image: url('../asset/image/IMG_1217.png');
+        background-size: 100%auto;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }   
+
+
+                                /*HEADER*/
+    
+header
+    {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background-color: hsla(0, 0%, 41%, 0.192);
+        height: 80px ;
+      }
+    
+ 
+.logoAeroT
+    {
+        margin-top: 20px;
+        height: 50px;
+        margin-left:  100px;
+        margin-right: 100px;
+    }
+
+
+a 
+    {
+        color: #f2f2f2;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-decoration: none;
+        padding: 20px 20px;
+       
+    }
+      
+
+
+a:hover 
+    {
+        background-color: #ddd;
+        color: black;
+    }
+       
+
+
+
+
+
+                        /*MAIN*/
+
+
+
+
+h1
+    {
+        height: 200px;
+        margin: 200px ; 
+        padding: 50px;
+        color: white;
+        text-align: center;
+        font-size: 70px;
+    }
+
+
+section 
+    {
+        background-color: rgba(255, 255, 255, 0.397);
+        padding: 50px
+    }  
+
+
+
+
+.nosotros
+    {
+        margin: 40px 40px;
+        margin-top: 200px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 400px 400px;
+        column-gap: 10px;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+
+h2      
+    {
+        color: #272727;
+        padding: 80px;
+        font-size: 40px;
+        text-align: center;
+    }
+    
+        
+.fondoBlanco
+    {
+        margin-top: 200px;
+        background-color: white;
+        text-align: center;
+    }
+    
+
+h3
+    {
+        text-align:start;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+    
+    
+h4
+    {
+        padding-left: 100px;
+        padding-top: 50px;
+        text-align: start;
+        text-emphasis: none;
+    }
+    
+    
+section article p
+    {
+        color: #353535;
+        text-align: justify;
+        padding: 50px 100px;
+    }
+    
+
+section article img
+    {
+        padding: 10px;
+    }
+    
+    
+article
+    {
+        background-color: #3535351e;
+    }
+
+
+section form
+    {
+        display: flex;
+        flex-direction: column;
+        margin: 100px;
+        margin-top: 200px;
+        color: #353535;   
+    }
+
+
+form label
+    {
+        margin-top: 50px;
+    }
+
+
+form input
+    {
+        padding: 10px 0px ;
+        margin-top: 5px;
+        border-style: none;
+        border-radius: 8px;
+    }
+
+
+form textarea
+    {
+        border-style: none;
+        padding: 80px ;
+        border-radius: 8px;
+    }
+    
+
+.enviar
+    {
+        margin-top: 50px;
+        margin-left: 300px;
+        margin-right: 300px;
+        text-decoration: none;
+        background-color: #5f805f;
+        color:white;
+        font-size: 18px;
+       
+    }
+
+
+.contacto
+    {   
+        text-align: center;
+    }
+
+
+section article div
+    {
+        text-align: center;
+    }
+
+
+section article div p
+    {
+        text-align: center;
+    }
+
+
+.contenido
+    {
+        text-align:justify;
+        padding-left: 200px;
+        padding-right: 200px;
+    }
+    
+    
+.agrasT40
+    {
+        height: 30vh;
+    }
+
+
+.imgServ
+    {
+        height: 150px;
+        margin: 50px;
+    }
+
+
+
+                                /*FOOTER*/
+
+
+.footer1 
+    {
+        background-color: #153415;     
+        padding: 20px 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+
+.footer2 
+    {
+        background-color: #686868;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+

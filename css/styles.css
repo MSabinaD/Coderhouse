@@ -1,0 +1,125 @@
+@font-face 
+    {
+        font-family: 'Roboto';
+        src: url('../asset/fonts/Roboto-Regular.ttf');
+    }
+
+
+*
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+body 
+    {
+        font-family:'Roboto';
+        background-image: url('../asset/image/FondoAeroTech.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        
+    }   
+    
+
+                /*  ------  HEADER  ------  */
+
+header
+    {
+        background-color: hsla(0, 0%, 41%, 0.192);
+        height: 80px ;
+        font-size: 16px;
+        padding: 10px;
+        display: flex;
+        justify-content: end;
+    }
+   
+
+a 
+    {
+        color: #f2f2f2;
+        margin-bottom: 10px 10px;
+        margin-inline: 45px;
+        text-decoration: none;
+        padding: 20px 20px;
+        
+    }
+    
+a:hover 
+    {
+        background-color: #ddd;
+        color: black;
+    }
+
+
+                /*  ------  MAIN  ------  */
+
+main 
+    {
+        text-align: center;
+        font-size: 30px;
+        color: white;
+    }  
+
+
+h3 
+    {
+        margin: 50px 50px;
+        margin-top: 50%;
+        background-color: rgba(0, 0, 0, 0.562);
+        border-radius: 30px;
+        padding: 50px;
+    }
+
+
+.boton
+    { 
+        margin: 50px 50px;
+
+    }
+
+main section a
+    {
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 50px;
+        border-radius: 25px;
+        background-color: #719071;
+        border: none;
+        cursor: pointer;
+    }
+    
+    
+main section a:hover
+    {
+        background-color: #62b862;
+        color: #0a250a;
+    }
+
+
+
+                    /*  ------  FOOTER  ------  */
+
+
+
+.footer1 
+    {
+        background-color: #153415;
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;       
+    }
+
+
+.footer2 
+    {
+        background-color: #686868;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
